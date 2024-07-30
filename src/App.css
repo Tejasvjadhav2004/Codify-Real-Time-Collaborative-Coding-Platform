@@ -1,0 +1,312 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+body{
+  background: #424242 !important;
+  overflow: hidden; 
+}
+.formWrapper {
+  background: linear-gradient(135deg, #102C57, #1F5663, #3B8B93);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  transform: scale(1.3);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #bbff28;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #5c5f63;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #d5e2da;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #368654;
+  border-color: #368654;
+  
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #1c1e29 !important;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+#you{
+  background-color: blue;
+  width: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#other{
+  background-color: red;
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+.click{
+  border: 2px solid #153c3f !important;
+  background-color: #337d84 !important;
+  color: white !important;
+}
+.mainWrap {
+  display: grid;
+  grid-template-columns: 60px 300px 1fr;
+  height: 100vh;
+}
+
+
+
+.aside {
+  background: #1c1e29 !important;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.sidebar {
+  background: #1c1e29 ;
+  color: #fff;
+  padding: 10px;
+  padding-top:20px ;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 0.5px solid rgb(254, 228, 228);
+  /* justify-content: center; */
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-btn {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #4a4e69;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.sidebar-btn:hover {
+  background-color: #6c757d;
+}
+
+form{
+  background-color: #368654;
+  height: 100%;
+}
+.chat-body{
+  background-color: #4a4e69;
+}
+/* For Chrome, Safari, and Opera */
+.chat-body::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  /* height: 8px; Height of the scrollbar */
+}
+
+.chat-body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px;
+}
+
+.chat-body::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.Comb {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+   /* Add space between input and button */
+}
+
+.Comb input {
+  flex: 1; /* Make input take up remaining space */
+  width: 50px;
+}
+
+.Comb button {
+  /* Adjust button width or padding as needed */
+  width: 50px; /* Set a fixed width for the button */
+  height: 50px;
+  border-radius: 2px;
+  text-align: center; /* Center text within the button */
+}
